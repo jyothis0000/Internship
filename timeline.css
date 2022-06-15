@@ -1,0 +1,54 @@
+
+#pinContainer {
+  width: 100%;
+  height:80vh;
+  overflow: hidden;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+
+}
+#slideContainer {
+    margin-top:5vh;
+  width: 400%;
+  height: 150vh;
+}
+.panel1 {
+  height: 100vh;
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+.panel1 h1{
+  margin-left:-70%;
+}
+/* h1 {
+  margin-top: 100px;
+  display: inline-block;
+} */
+.one {
+  background-color: #000;
+  color: white;
+}
+.one button {
+  display: block;
+  margin: 0 auto;
+}
+.two {
+  background-color: #000;
+  color: white;
+}
+.three {
+  background-color: #000;
+  color: white;
+  position: relative;
+}
+.four {
+  background-color: #000;
+  color: #FFF;
+}
+.horizontal-line {
+  border-top: 4px solid #FFF;
+  height: 4px;
+  width: 0px;
+  position: absolute;
+}
